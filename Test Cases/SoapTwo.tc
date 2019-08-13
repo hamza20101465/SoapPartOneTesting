@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>SoapTwo</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>dc9458e6-69a7-4db9-9d33-b88e90f9a326</testCaseGuid>
+   <variable>
+      <defaultValue>'AX'</defaultValue>
+      <description></description>
+      <id>65d2ac52-4154-4e82-965c-3853b40c40de</id>
+      <masked>false</masked>
+      <name>countryCode</name>
+   </variable>
+</TestCaseEntity>

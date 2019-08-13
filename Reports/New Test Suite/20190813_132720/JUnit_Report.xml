@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<testsuites name="New Test Suite" time="10" tests="1" failures="0" errors="0">
+    <testsuite name="New Test Suite" tests="1" failures="0" errors="0" time="10" timestamp="2019-08-13 13:27:27" hostname="Hamza - DESKTOP-JRBJHUE" id="Test Suites/New Test Suite">
+        <properties>
+            <property name="deviceName" value=""/>
+            <property name="devicePlatform" value=""/>
+            <property name="logFolder" value="C:\\Users\\Hamza\\Katalon Studio\\SoapPartTwoTesting\\Reports\\New Test Suite\\20190813_132720"/>
+            <property name="logFiles" value="C:\\Users\\Hamza\\Katalon Studio\\SoapPartTwoTesting\\Reports\\New Test Suite\\20190813_132720\\execution0.log"/>
+            <property name="attachments" value=""/>
+            <property name="hostName" value="Hamza - DESKTOP-JRBJHUE"/>
+            <property name="hostAddress" value="192.168.1.7"/>
+            <property name="os" value="Windows 10 64bit"/>
+            <property name="katalonVersion" value="6.2.0.1"/>
+        </properties>
+        <testcase name="Test Cases/Soap" classname="Test Cases/Soap" status="PASSED">
+            <system-out>2019-08-13 13:27:28 - [TEST_CASE][PASSED] - Test Cases/Soap: Test Cases/Soap&#xD;
+&#xD;
+2019-08-13 13:27:30 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("Soap/ListOfCountryNamesByName")): Send request successfully&#xD;
+&#xD;
+2019-08-13 13:27:34 - [MESSAGE][INFO] - HAR: C:\Users\Hamza\Katalon Studio\SoapPartTwoTesting\Reports\New Test Suite\20190813_132720\requests\main\0.har&#xD;
+&#xD;
+2019-08-13 13:27:35 - [MESSAGE][PASSED] - Send request successfully&#xD;
+&#xD;
+2019-08-13 13:27:35 - [TEST_STEP][PASSED] - xml = response.getResponseBodyContent(): null&#xD;
+&#xD;
+2019-08-13 13:27:35 - [TEST_STEP][PASSED] - dataValue = XmlSlurper().parseText(xml): null&#xD;
+&#xD;
+2019-08-13 13:27:35 - [TEST_STEP][PASSED] - dataSpecification = sISOCode.text(): null&#xD;
+&#xD;
+2019-08-13 13:27:36 - [TEST_STEP][PASSED] - internal.GlobalVariable: null&#xD;
+&#xD;
+2019-08-13 13:27:36 - [TEST_STEP][PASSED] - responseTwo = sendRequest(findTestObject("Soap/countryName", ["countryCode":countryCode])): Send request successfully&#xD;
+&#xD;
+2019-08-13 13:27:37 - [MESSAGE][INFO] - HAR: C:\Users\Hamza\Katalon Studio\SoapPartTwoTesting\Reports\New Test Suite\20190813_132720\requests\main\1.har&#xD;
+&#xD;
+2019-08-13 13:27:37 - [MESSAGE][PASSED] - Send request successfully&#xD;
+&#xD;
+2019-08-13 13:27:37 - [TEST_STEP][PASSED] - xmlTwo = responseTwo.getResponseBodyContent(): null&#xD;
+&#xD;
+2019-08-13 13:27:37 - [TEST_STEP][PASSED] - dataValueTwo = XmlSlurper().parseText(xmlTwo): null&#xD;
+&#xD;
+2019-08-13 13:27:37 - [TEST_STEP][PASSED] - dataSpeci = CountryNameResult.text(): null&#xD;
+&#xD;
+2019-08-13 13:27:37 - [TEST_STEP][PASSED] - println(dataSpeci): null&#xD;
+&#xD;
+2019-08-13 13:27:37 - [TEST_STEP][PASSED] - sendRequest(findTestObject("Soap/countryName", ["countryCode":countryCode, "basic":basic])): Send request successfully&#xD;
+&#xD;
+2019-08-13 13:27:38 - [MESSAGE][INFO] - HAR: C:\Users\Hamza\Katalon Studio\SoapPartTwoTesting\Reports\New Test Suite\20190813_132720\requests\main\2.har&#xD;
+&#xD;
+2019-08-13 13:27:38 - [MESSAGE][PASSED] - Send request successfully</system-out>
+            <system-err></system-err>
+        </testcase>
+        <system-out>2019-08-13 13:27:27 - [TEST_SUITE][INCOMPLETE] - New Test Suite: null</system-out>
+        <system-err>2019-08-13 13:27:27 - [TEST_SUITE][INCOMPLETE] - New Test Suite: null</system-err>
+    </testsuite>
+</testsuites>

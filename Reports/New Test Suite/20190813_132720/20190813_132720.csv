@@ -1,0 +1,15 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+New Test Suite,,,,2019-08-13 13:27:27,2019-08-13 13:27:38,10.488s,INCOMPLETE
+,,,,,,,
+Test Cases/Soap,,,,2019-08-13 13:27:28,2019-08-13 13:27:38,9.440s,PASSED
+"response = sendRequest(findTestObject(""Soap/ListOfCountryNamesByName""))",,,,2019-08-13 13:27:30,2019-08-13 13:27:35,5.228s,PASSED
+xml = response.getResponseBodyContent(),,,,2019-08-13 13:27:35,2019-08-13 13:27:35,0.516s,PASSED
+dataValue = XmlSlurper().parseText(xml),,,,2019-08-13 13:27:35,2019-08-13 13:27:35,0.126s,PASSED
+dataSpecification = sISOCode.text(),,,,2019-08-13 13:27:35,2019-08-13 13:27:36,0.071s,PASSED
+internal.GlobalVariable,,,,2019-08-13 13:27:36,2019-08-13 13:27:36,0.007s,PASSED
+"responseTwo = sendRequest(findTestObject(""Soap/countryName"", [""countryCode"":countryCode]))",,,,2019-08-13 13:27:36,2019-08-13 13:27:37,1.466s,PASSED
+xmlTwo = responseTwo.getResponseBodyContent(),,,,2019-08-13 13:27:37,2019-08-13 13:27:37,0.023s,PASSED
+dataValueTwo = XmlSlurper().parseText(xmlTwo),,,,2019-08-13 13:27:37,2019-08-13 13:27:37,0.024s,PASSED
+dataSpeci = CountryNameResult.text(),,,,2019-08-13 13:27:37,2019-08-13 13:27:37,0.003s,PASSED
+println(dataSpeci),,,,2019-08-13 13:27:37,2019-08-13 13:27:37,0.020s,PASSED
+"sendRequest(findTestObject(""Soap/countryName"", [""countryCode"":countryCode, ""basic"":basic]))",,,,2019-08-13 13:27:37,2019-08-13 13:27:38,0.731s,PASSED

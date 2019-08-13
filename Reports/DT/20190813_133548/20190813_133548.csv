@@ -1,0 +1,30 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+DT,,,,2019-08-13 13:35:55,2019-08-13 13:36:05,10.503s,INCOMPLETE
+,,,,,,,
+Test Cases/SoapTwo,,,,2019-08-13 13:35:56,2019-08-13 13:36:02,6.603s,PASSED
+"response = sendRequest(findTestObject(""Soap/countryName"", [""countryCode"":countryCode]))",,,,2019-08-13 13:35:57,2019-08-13 13:36:02,5.061s,PASSED
+xml = response.getResponseBodyContent(),,,,2019-08-13 13:36:02,2019-08-13 13:36:02,0.242s,PASSED
+dataValue = XmlSlurper().parseText(xml),,,,2019-08-13 13:36:02,2019-08-13 13:36:02,0.202s,PASSED
+dataSpeci = CountryNameResult.text(),,,,2019-08-13 13:36:02,2019-08-13 13:36:02,0.053s,PASSED
+println(dataSpeci),,,,2019-08-13 13:36:02,2019-08-13 13:36:02,0.046s,PASSED
+,,,,,,,
+Test Cases/SoapTwo,,,,2019-08-13 13:36:02,2019-08-13 13:36:03,1.006s,PASSED
+"response = sendRequest(findTestObject(""Soap/countryName"", [""countryCode"":countryCode]))",,,,2019-08-13 13:36:03,2019-08-13 13:36:03,0.800s,PASSED
+xml = response.getResponseBodyContent(),,,,2019-08-13 13:36:03,2019-08-13 13:36:03,0.024s,PASSED
+dataValue = XmlSlurper().parseText(xml),,,,2019-08-13 13:36:03,2019-08-13 13:36:03,0.010s,PASSED
+dataSpeci = CountryNameResult.text(),,,,2019-08-13 13:36:03,2019-08-13 13:36:03,0.013s,PASSED
+println(dataSpeci),,,,2019-08-13 13:36:03,2019-08-13 13:36:03,0.002s,PASSED
+,,,,,,,
+Test Cases/SoapTwo,,,,2019-08-13 13:36:03,2019-08-13 13:36:04,0.874s,PASSED
+"response = sendRequest(findTestObject(""Soap/countryName"", [""countryCode"":countryCode]))",,,,2019-08-13 13:36:04,2019-08-13 13:36:04,0.763s,PASSED
+xml = response.getResponseBodyContent(),,,,2019-08-13 13:36:04,2019-08-13 13:36:04,0.017s,PASSED
+dataValue = XmlSlurper().parseText(xml),,,,2019-08-13 13:36:04,2019-08-13 13:36:04,0.015s,PASSED
+dataSpeci = CountryNameResult.text(),,,,2019-08-13 13:36:04,2019-08-13 13:36:04,0.003s,PASSED
+println(dataSpeci),,,,2019-08-13 13:36:04,2019-08-13 13:36:04,0.004s,PASSED
+,,,,,,,
+Test Cases/SoapTwo,,,,2019-08-13 13:36:04,2019-08-13 13:36:05,1.162s,PASSED
+"response = sendRequest(findTestObject(""Soap/countryName"", [""countryCode"":countryCode]))",,,,2019-08-13 13:36:04,2019-08-13 13:36:05,0.993s,PASSED
+xml = response.getResponseBodyContent(),,,,2019-08-13 13:36:05,2019-08-13 13:36:05,0.099s,PASSED
+dataValue = XmlSlurper().parseText(xml),,,,2019-08-13 13:36:05,2019-08-13 13:36:05,0.014s,PASSED
+dataSpeci = CountryNameResult.text(),,,,2019-08-13 13:36:05,2019-08-13 13:36:05,0.001s,PASSED
+println(dataSpeci),,,,2019-08-13 13:36:05,2019-08-13 13:36:05,0.000s,PASSED

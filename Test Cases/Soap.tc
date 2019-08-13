@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Soap</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>35f66a38-f2f3-48d9-8c90-f767ef224c7d</testCaseGuid>
+   <variable>
+      <defaultValue>'AX'</defaultValue>
+      <description></description>
+      <id>4d0d63b8-8c56-4443-8e9c-4b7f86052185</id>
+      <masked>false</masked>
+      <name>countryCode</name>
+   </variable>
+</TestCaseEntity>
